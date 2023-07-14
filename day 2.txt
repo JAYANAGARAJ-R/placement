@@ -1,0 +1,14 @@
+r=7
+unit=2
+n=8
+arr=[2,8,3,5,7,4,1,2]
+a=r*unit
+v=0
+count=0
+for i in range(0,len(arr)):
+    if v<a:
+        v=v+int(arr[i])
+        count+=1
+    else:
+        break
+print(count)    
